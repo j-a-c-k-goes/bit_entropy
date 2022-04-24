@@ -38,12 +38,10 @@ if __name__ == "__main__":
 	test_value = create_test_hash_value()
 	test_values = make_test_value_set()
 	bit_entropy = calc_bit_entropy(test_value['test_hash'])
-
+	# - - - print statement - - -
 	print(
 f"""	
 test hash: {test_value['test_hash']}
-
 test digest: {test_value['digested_hash']}
-
 bit entropy: {bit_entropy}
 """)
